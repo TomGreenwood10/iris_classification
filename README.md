@@ -8,7 +8,7 @@ The API is provided by fastAPI.
 - Install all the dependencies with `pip install -r requirements.txt`
 - Start the server with `uvicorn api:app`
 ### Send post request to API
-Requestes should be sent to `http://127.0.0.1:8000/predict` in the following json format:
+Requests should be sent to `http://127.0.0.1:8000/predict` in the following json format:
 
 ```
 {
@@ -30,4 +30,4 @@ This repo is to demonstrate the serving of an ML model with FastAPI (which is gr
 - `api.py` -- contains the web app and data processing
 - `model.pickle` -- the binarised sklearn.neighbors.KNeighborsClassifier trained model
 - `requirements.txt` -- the usual; all required packages (for the model type contained)
-- `iris.ipynb` -- jupyer notebook with EDA and model tuning
+- `iris.ipynb` -- jupyter notebook with EDA and model tuning
